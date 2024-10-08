@@ -1,0 +1,29 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: circle; /* Círculo para las listas principales */
+}
+
+ol {
+    margin-left: 20px;
+}
+
+ol[type="I"] {
+    list-style-type: upper-roman; /* Números romanos */
+}
+
+ol[type="a"] {
+    list-style-type: lower-alpha; /* Letras minúsculas */
+}
